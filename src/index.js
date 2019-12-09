@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import Body from './components/body/Body';
+import App from './components/App';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 // const message = 'Counter-->';
@@ -12,7 +12,7 @@ import Footer from './components/footer/Footer';
 ReactDOM.render(
   <Router>
     <Header />
-    <Body />
+    <App />
     <Footer />
   </Router>,
 
